@@ -115,7 +115,7 @@ export function OutputPanel({ output, markdown, html, meta }: OutputPanelProps) 
           <ScrollArea className="h-full">
             <pre
               className={cn(
-                "m-0 whitespace-pre-wrap break-words p-4 font-mono text-xs leading-relaxed text-foreground/90"
+                "m-0 whitespace-pre-wrap wrap-break-words p-4 font-mono text-xs leading-relaxed text-foreground/90"
               )}
             >
               {output || t("output.emptyState")}

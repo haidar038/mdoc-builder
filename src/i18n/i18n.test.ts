@@ -21,11 +21,11 @@ describe("i18n — initialization", () => {
   })
 
   it("translates a known English key", () => {
-    expect(i18n.t("app.title", { lng: "en" })).toBe("mdoc builder")
+    expect(i18n.t("app.title", { lng: "en" })).toBe(".mdoc Builder")
   })
 
   it("translates a known Indonesian key", () => {
-    expect(i18n.t("app.title", { lng: "id" })).toBe("mdoc builder")
+    expect(i18n.t("app.title", { lng: "id" })).toBe(".mdoc Builder")
     expect(i18n.t("form.titleLabel", { lng: "id" })).toBe("Judul Blog")
   })
 

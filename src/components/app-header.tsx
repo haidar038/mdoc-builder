@@ -1,6 +1,5 @@
 import { useRef } from "react"
 import {
-  FileCode2Icon,
   RefreshCwIcon,
   Trash2Icon,
   UploadIcon,
@@ -45,9 +44,9 @@ export function AppHeader({
   return (
     <header className="flex flex-wrap items-center justify-between gap-3 border-b border-border bg-card/50 px-4 py-3 backdrop-blur">
       <div className="flex items-center gap-2.5">
-        <div className="flex size-9 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-          <FileCode2Icon className="size-5" />
-        </div>
+        {/* <div className="flex size-9 items-center justify-center rounded-lg bg-primary text-primary-foreground">
+        </div> */}
+        <img src="/img/logo-2.svg" alt={t("app.title")} className="size-9" />
         <div className="flex flex-col leading-tight">
           <h1 className="font-heading text-base font-semibold">
             {t("app.title")}

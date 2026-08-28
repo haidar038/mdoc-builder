@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "mdoc builder",
+    "title": ".mdoc Builder",
     "tagline": "Keystatic blog content generator",
     "metadataCard": {
       "title": "Blog Metadata",
