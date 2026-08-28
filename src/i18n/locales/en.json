@@ -1,0 +1,106 @@
+{
+  "app": {
+    "title": "mdoc builder",
+    "tagline": "Keystatic blog content generator",
+    "metadataCard": {
+      "title": "Blog Metadata",
+      "description": "Will become YAML frontmatter in the .mdoc file."
+    },
+    "contentCard": {
+      "title": "Blog Content",
+      "description": "Write with the rich text editor. Output is automatically converted to Markdown."
+    }
+  },
+  "header": {
+    "import": "Import",
+    "modeRealtime": "Real-time",
+    "modeRealtimeAria": "Real-time mode",
+    "modeManual": "Manual",
+    "modeManualAria": "Manual mode",
+    "generate": "Generate",
+    "resetAria": "Reset form",
+    "switcherAria": "Change language",
+    "langEnglish": "English",
+    "langIndonesian": "Bahasa Indonesia"
+  },
+  "form": {
+    "titleLabel": "Blog Title",
+    "titlePlaceholder": "e.g. Web Developer Roadmap 2026",
+    "titleRequired": "Title is required",
+    "publishDateLabel": "Publish Date",
+    "dateInvalid": "Invalid date format (YYYY-MM-DD)",
+    "categoryLabel": "Category",
+    "categoryPlaceholder": "Select a category",
+    "featuredImageLabel": "Featured Image URL",
+    "featuredImagePlaceholder": "https://res.cloudinary.com/.../image.avif",
+    "featuredImageInvalid": "Invalid URL",
+    "featuredImagePreviewAlt": "Featured image preview",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "A short, engaging summary for this blog post...",
+    "descriptionHint": "Will be automatically formatted as a YAML block scalar.",
+    "featuredTitle": "Featured Post",
+    "featuredDescription": "Mark as featured on the homepage.",
+    "featuredAria": "Featured post"
+  },
+  "output": {
+    "copySuccess": "mdoc copied to clipboard",
+    "copyError": "Failed to copy. Please copy manually.",
+    "copyButton": "Copy",
+    "copyButtonCopied": "Copied",
+    "downloadButton": "Download",
+    "downloadTitleEmpty": "Fill the title first before downloading",
+    "downloadSuccess": "Downloaded as {{fileName}}",
+    "tabSource": "Source",
+    "tabPreview": "Preview",
+    "emptyState": "Fill the form on the left to generate an mdoc.",
+    "emptyPreview": "No content to preview yet.",
+    "statsWords_one": "{{count}} word",
+    "statsWords_other": "{{count}} words",
+    "statsCharacters_one": "{{count}} character",
+    "statsCharacters_other": "{{count}} characters",
+    "statsReadingTime_one": "~{{count}} min read",
+    "statsReadingTime_other": "~{{count}} min read",
+    "extBadge": ".mdoc"
+  },
+  "editor": {
+    "toolbar": {
+      "bold": "Bold",
+      "italic": "Italic",
+      "strike": "Strikethrough",
+      "link": "Link",
+      "linkPrompt": "Enter link URL:",
+      "linkPromptDefault": "https://",
+      "h1": "Heading 1",
+      "h2": "Heading 2",
+      "h3": "Heading 3",
+      "bulletList": "Bullet list",
+      "orderedList": "Numbered list",
+      "blockquote": "Quote",
+      "inlineCode": "Inline code",
+      "codeBlock": "Code block",
+      "horizontalRule": "Horizontal rule",
+      "image": "Insert image",
+      "table": "Insert table",
+      "taskList": "Task list",
+      "undo": "Undo",
+      "redo": "Redo"
+    },
+    "imageDialog": {
+      "title": "Insert Image",
+      "description": "Add an image from URL to the blog content.",
+      "srcLabel": "Image URL",
+      "srcPlaceholder": "https://",
+      "altLabel": "Alt Text",
+      "altPlaceholder": "Short image description (optional)",
+      "cancel": "Cancel",
+      "insert": "Insert"
+    }
+  },
+  "import": {
+    "success": ".mdoc file loaded successfully",
+    "error": "Failed to read file"
+  },
+  "common": {
+    "cancel": "Cancel"
+  }
+}

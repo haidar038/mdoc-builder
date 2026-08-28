@@ -1,0 +1,43 @@
+{
+  "categories": [
+    {
+      "value": "tutorial",
+      "translations": {
+        "en": {
+          "label": "Tutorial",
+          "description": "Step-by-step guides"
+        },
+        "id": {
+          "label": "Tutorial",
+          "description": "Panduan langkah demi langkah"
+        }
+      }
+    },
+    {
+      "value": "tips-trik",
+      "translations": {
+        "en": {
+          "label": "Tips & Tricks",
+          "description": "Quick tips & best practices"
+        },
+        "id": {
+          "label": "Tips & Trick",
+          "description": "Trik cepat & praktik terbaik"
+        }
+      }
+    },
+    {
+      "value": "digital-assets",
+      "translations": {
+        "en": {
+          "label": "Digital Assets",
+          "description": "Resources, templates & digital assets"
+        },
+        "id": {
+          "label": "Digital Assets",
+          "description": "Resource, template, & aset digital"
+        }
+      }
+    }
+  ]
+}

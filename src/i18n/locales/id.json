@@ -1,0 +1,106 @@
+{
+  "app": {
+    "title": "mdoc builder",
+    "tagline": "Generator konten blog Keystatic",
+    "metadataCard": {
+      "title": "Metadata Blog",
+      "description": "Akan menjadi frontmatter YAML pada file .mdoc."
+    },
+    "contentCard": {
+      "title": "Konten Blog",
+      "description": "Tulis dengan rich text editor. Output otomatis jadi Markdown."
+    }
+  },
+  "header": {
+    "import": "Impor",
+    "modeRealtime": "Real-time",
+    "modeRealtimeAria": "Mode real-time",
+    "modeManual": "Manual",
+    "modeManualAria": "Mode manual",
+    "generate": "Generate",
+    "resetAria": "Reset form",
+    "switcherAria": "Ganti bahasa",
+    "langEnglish": "English",
+    "langIndonesian": "Bahasa Indonesia"
+  },
+  "form": {
+    "titleLabel": "Judul Blog",
+    "titlePlaceholder": "Mis. Roadmap Jadi Web Developer 2026",
+    "titleRequired": "Judul wajib diisi",
+    "publishDateLabel": "Tanggal Terbit",
+    "dateInvalid": "Format tanggal tidak valid (YYYY-MM-DD)",
+    "categoryLabel": "Kategori",
+    "categoryPlaceholder": "Pilih kategori",
+    "featuredImageLabel": "URL Featured Image",
+    "featuredImagePlaceholder": "https://res.cloudinary.com/.../gambar.avif",
+    "featuredImageInvalid": "URL tidak valid",
+    "featuredImagePreviewAlt": "Preview featured image",
+    "descriptionLabel": "Deskripsi",
+    "descriptionPlaceholder": "Ringkasan singkat yang menarik untuk blog post ini...",
+    "descriptionHint": "Akan diformat sebagai block scalar YAML otomatis.",
+    "featuredTitle": "Featured Post",
+    "featuredDescription": "Tandai sebagai unggulan di halaman utama.",
+    "featuredAria": "Featured post"
+  },
+  "output": {
+    "copySuccess": "mdoc disalin ke clipboard",
+    "copyError": "Gagal menyalin. Salin manual ya.",
+    "copyButton": "Salin",
+    "copyButtonCopied": "Disalin",
+    "downloadButton": "Unduh",
+    "downloadTitleEmpty": "Isi judul dulu sebelum mengunduh",
+    "downloadSuccess": "Diunduh sebagai {{fileName}}",
+    "tabSource": "Source",
+    "tabPreview": "Preview",
+    "emptyState": "Isi form di sebelah kiri untuk membuat mdoc.",
+    "emptyPreview": "Belum ada konten untuk dipratinjau.",
+    "statsWords_one": "{{count}} kata",
+    "statsWords_other": "{{count}} kata",
+    "statsCharacters_one": "{{count}} karakter",
+    "statsCharacters_other": "{{count}} karakter",
+    "statsReadingTime_one": "~{{count}} mnt baca",
+    "statsReadingTime_other": "~{{count}} mnt baca",
+    "extBadge": ".mdoc"
+  },
+  "editor": {
+    "toolbar": {
+      "bold": "Tebal",
+      "italic": "Miring",
+      "strike": "Coret",
+      "link": "Link",
+      "linkPrompt": "Masukkan URL link:",
+      "linkPromptDefault": "https://",
+      "h1": "Heading 1",
+      "h2": "Heading 2",
+      "h3": "Heading 3",
+      "bulletList": "Daftar berpoin",
+      "orderedList": "Daftar bernomor",
+      "blockquote": "Kutipan",
+      "inlineCode": "Kode inline",
+      "codeBlock": "Blok kode",
+      "horizontalRule": "Garis pemisah",
+      "image": "Sisipkan gambar",
+      "table": "Sisipkan tabel",
+      "taskList": "Daftar tugas",
+      "undo": "Batal",
+      "redo": "Ulangi"
+    },
+    "imageDialog": {
+      "title": "Sisipkan Gambar",
+      "description": "Tambahkan gambar dari URL ke dalam konten blog.",
+      "srcLabel": "URL Gambar",
+      "srcPlaceholder": "https://",
+      "altLabel": "Teks Alternatif",
+      "altPlaceholder": "Deskripsi singkat gambar (opsional)",
+      "cancel": "Batal",
+      "insert": "Sisipkan"
+    }
+  },
+  "import": {
+    "success": "File .mdoc berhasil dimuat",
+    "error": "Gagal membaca file"
+  },
+  "common": {
+    "cancel": "Batal"
+  }
+}
