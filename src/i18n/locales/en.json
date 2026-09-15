@@ -24,7 +24,7 @@
     "langIndonesian": "Bahasa Indonesia"
   },
   "form": {
-    "titleLabel": "Blog Title",
+    "titleLabel": "Post Title",
     "titlePlaceholder": "e.g. Web Developer Roadmap 2026",
     "titleRequired": "Title is required",
     "publishDateLabel": "Publish Date",

@@ -21,6 +21,10 @@ reads Keystatic-style content. There is no backend, no account, and no
 network call: the whole app runs in the browser, autosaves to
 `localStorage`, and lets you copy or download the result.
 
+## 🌐 Live Demo
+
+Open the live demo at https://mdoc-builder.vercel.app.
+
 ## ✨ Features
 
 - **Rich text editor** powered by Tiptap 3 — bold, italic,
@@ -96,11 +100,11 @@ npm run preview
 ## 📖 Usage
 
 1. **Fill the metadata form** on the left:
-   - *Judul Blog* — the post title (required).
-   - *Tanggal Terbit* — the publish date.
-   - *Kategori* — pick from the dropdown.
-   - *URL Featured Image* — absolute URL to the cover image.
-   - *Deskripsi* — short summary.
+   - *Post Title* — the post title (required).
+   - *Publish Date* — the publish date.
+   - *Category* — pick from the dropdown.
+   - *Featured Image URL* — absolute URL to the cover image.
+   - *Description* — short summary.
    - *Featured Post* — toggle to mark as featured.
 2. **Write the body** in the editor. The toolbar exposes every
    formatting action — bold, italic, strike, link, heading 1–3,
@@ -293,6 +297,10 @@ atau static site generator lain yang membaca konten gaya Keystatic.
 Tidak ada backend, tidak ada akun, tidak ada panggilan jaringan:
 seluruh aplikasi berjalan di browser, autosave ke `localStorage`, dan
 Anda bisa menyalin atau mengunduh hasilnya.
+
+## 🌐 Demo Langsung
+
+Buka demo langsung di https://mdoc-builder.vercel.app.
 
 ## ✨ Fitur
 

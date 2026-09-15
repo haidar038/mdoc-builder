@@ -24,7 +24,7 @@
     "langIndonesian": "Bahasa Indonesia"
   },
   "form": {
-    "titleLabel": "Judul Blog",
+    "titleLabel": "Judul Postingan",
     "titlePlaceholder": "Mis. Roadmap Jadi Web Developer 2026",
     "titleRequired": "Judul wajib diisi",
     "publishDateLabel": "Tanggal Terbit",
